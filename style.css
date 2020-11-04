@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background: black;
+    color: white;
+    
+}
+
+.jumbotron{
+    padding: 0px;
+    margin:  150px;
+    height: 275px;
+    width: 1000px;
+    justify-content: left;
+    align-items: center;
+}
+
+h3{
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.container{
+display: flex;
+margin: 70px;
+padding: 0;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+  }
+
+  /* Style the submit button */
+form.example button {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+  form.example button:hover {
+    background: grey;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
