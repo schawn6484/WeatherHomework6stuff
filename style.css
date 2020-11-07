@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*Header*/
 header{
     text-align: center;
     background: black;
@@ -16,10 +17,23 @@ header{
     margin:  150px;
     height: 275px;
     width: 1000px;
-    justify-content: left;
+    justify-content: right !important;
     align-items: center;
 }
 
+/*Clear History Button*/
+.btn{
+  padding: 5px;
+  margin: 10px;
+  background-color: black !important;
+  outline: none;
+}
+
+.btn:hover{
+  color: blueviolet !important;
+}
+
+/*Container*/
 h3{
     position: relative;
     left: 100px;
