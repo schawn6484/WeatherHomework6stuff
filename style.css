@@ -12,15 +12,6 @@ header{
     
 }
 
-.jumbotron{
-    padding: 0px;
-    margin:  150px;
-    height: 275px;
-    width: 1000px;
-    justify-content: right !important;
-    align-items: center;
-}
-
 /*Clear History Button*/
 .btn{
   padding: 5px;
